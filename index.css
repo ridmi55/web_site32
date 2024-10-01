@@ -1,0 +1,157 @@
+/* Global Css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-btn{
+ width: 135px;
+ height: 42px;
+ background-color: #293185;
+ color: white; 
+}
+.about-me-btn{
+    
+    margin-left: 33px;
+    width: 135px;
+    height: 42px;
+    background-color: #000107;
+    color: rgb(255, 255, 255);
+}
+.this-is-fist{
+
+    color: aliceblue;
+}
+.this-is-colore{
+     
+    background-color: black;
+    color: rgb(255, 214, 33);
+}
+.global-section{
+    padding: 4rem 100px;
+}
+.global-heading{
+
+    font-size: 45px;
+    text-align: center;
+    margin: 10px;
+}
+.global-head-p{
+    font-size: 20px;
+    color: #B9B9B9;
+    text-align: center;
+}
+/* this is header */
+header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;    
+}
+.main-menu ul li{
+display: inline;
+margin-right: 50px;
+}
+.logo-section{
+    width: 145px;
+}
+/* First section */
+.Frist-section{
+    background-image: url(./Screenshot\ 2024-10-02\ 002810.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20rem 98px;
+    text-align: center;
+
+}
+.Frist-section p{
+    font-size: 5rem;
+}
+.Frist-section h2{
+    font-size: 5rem;
+    margin: 20px;
+}
+
+/* About us section */
+
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.about-sub-div2{
+    width: 500px;
+}
+.about-sub-div2 h2{
+font-size: 33px;
+}
+.about-sub-div2 p{
+    color: #B9B9B9;
+    margin: 15px 0;
+}
+.about-sub-div2 p{
+    padding-left: 7%;
+}
+.about-sub-div2 h2{
+    padding-left: 7%;
+}
+.about-sub-div2 button{
+    padding-left: 7%;
+}
+
+/* This is sarvice area */
+
+.grid-cintainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px;
+
+}
+.grid-single-item p{
+    color: #B9B9B9;
+
+}
+.castom-icon-size{
+    font-size: 60px;
+}
+
+/* work section */
+.work-single-img{
+    width: 100%;
+   }
+/* Testimonial section */
+.testimoniyal-p{
+    color: black !important;
+    margin: 5px;
+}
+/* contact section */
+.contact-haeding{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 43rem;
+    margin-top: 2rem;
+
+}
+form input{
+    width: 450px;
+}
+form textarea{
+    width: 450px;
+}
+.sabmit-btn{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 10px;
+}
